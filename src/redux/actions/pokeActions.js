@@ -1,11 +1,11 @@
 const URL_API = process.env.API;
 
-export const getDataPoke = (num) => async (dispatch) => {
+export const getDataPoke = () => async (dispatch) => {
   try {
-    const response = await fetch(`${URL_API}/pokemon?limit=500`);
+    const response = await fetch(`${URL_API}pokemon?limit=500`);
     const data = await response.json();
     data.results.forEach( async (item, index) => {
-      const response = await fetch(`${URL_API}/pokemon/${item.name}`);
+      const response = await fetch(`${URL_API}pokemon/${item.name}`);
       const data = await response.json();
       if(index===0){
         selectedPoke(data);
@@ -29,7 +29,7 @@ export const selectedPoke = (data) => async (dispatch) => {
 
 export const getDataPokeById = (id) => async (dispatch) => {
   try {
-    const response = await fetch(`${URL_API}/pokemon/${id}`);
+    const response = await fetch(`${URL_API}pokemon/${id}`);
     if(response.status === 404){
       alert('Not Found Pokemon')
     }
