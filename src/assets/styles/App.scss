@@ -2,6 +2,19 @@
 @import  '@styles/_vars.scss';
 @import '@styles/MediaQuery.scss';
 
+.header__container{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (max-width: 767px){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 header {
     width: 100vw;
     background-color: #1b2127;
@@ -16,10 +29,6 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     /* position: fixed;  */
-    @media screen and (max-width: 767px){
-        display: flex;
-        flex-direction: column-reverse;
-    }
 }
 
 .logo {
@@ -45,4 +54,26 @@ header {
 
 .logo-image:hover{
     transform: scale(1.1);
+}
+
+.header__search input {
+    width: 200px;
+    height: 30px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    @media screen and (max-width: 767px){
+        height: 25px;
+    }
+}
+
+.header__search--button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #1b2127;
+    border-radius: 100%;
+    font-size: 14px;
+    margin: 0px;
+    outline: #1b2127;
 }
