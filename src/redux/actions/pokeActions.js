@@ -1,8 +1,8 @@
 const URL_API = process.env.API;
 
-export const getDataPoke = () => async (dispatch) => {
+export const getDataPoke = (num) => async (dispatch) => {
   try {
-    const response = await fetch(`${URL_API}/pokemon?limit=15`);
+    const response = await fetch(`${URL_API}/pokemon?limit=500`);
     const data = await response.json();
     data.results.forEach( async (item, index) => {
       const response = await fetch(`${URL_API}/pokemon/${item.name}`);
