@@ -1,0 +1,36 @@
+@import './vars.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $font-primary;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: $color-black;
+}
+
+h3 {
+    font-size: 30px;
+    color: $color-black;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: $color-black;
+}
+
+p,
+figure,
+h5 {
+    margin: 0;
+}
