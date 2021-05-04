@@ -1,0 +1,29 @@
+{
+  "name": "appokedex",
+  "version": "1.0.0",
+  "description": "Web App pokedex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahianf/Appokedex.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "React",
+    "WebPack",
+    "Babel",
+    "React-Router",
+    "React",
+    "Hooks",
+    "Redux"
+  ],
+  "author": "Brahianf Hurtado <brahianf.hurtado@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brahianf/Appokedex/issues"
+  },
+  "homepage": "https://github.com/brahianf/Appokedex#readme"
+}
