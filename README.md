@@ -6,6 +6,9 @@ following actions:
 2. View a Pokémon detailed info (Image, id, name, type, abilities).
 3. Search for a specific Pokémon.
 
+### Demo 
+[App Pokedex](https://github.com/brahianf/Appokedex).
+
 ### start 🚀
 
 ### Pre-requisites 📋
