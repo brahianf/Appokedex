@@ -22,7 +22,9 @@ module.exports = {
 			'@styles':	path.resolve(__dirname, 'src/assets/styles/'),
 			'@context': path.resolve(__dirname, 'src/context/'),
 			'@images': 	path.resolve(__dirname, 'src/assets/images/'),
-			'@components': path.resolve(__dirname, 'src/components/')
+			'@components': path.resolve(__dirname, 'src/components/'),
+			'@actionsRedux' : path.resolve(__dirname, 'src/redux/actions/'),
+			'@reducersRedux' : path.resolve(__dirname, 'src/redux/reducers/'),
 		}
 	},
 	module: {
