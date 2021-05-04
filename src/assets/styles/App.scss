@@ -249,3 +249,36 @@ header {
     border-radius: 0px;
     padding: 0px;
 }
+
+
+
+.footer {
+    color: white;
+    background-color: #1b2127;
+    margin: 0px;
+    padding: 10px;
+    height: auto;
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer__container div p{
+    height: inherit;
+    margin: 10px auto;
+}
+
+.footer img {
+    vertical-align: middle;
+    border:  2px white solid;
+    border-radius: 130px;
+    padding: 2px;
+}
+
+.footer a{
+    color: white;
+}
