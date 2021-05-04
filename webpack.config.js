@@ -25,6 +25,7 @@ module.exports = {
 			'@components': path.resolve(__dirname, 'src/components/'),
 			'@actionsRedux' : path.resolve(__dirname, 'src/redux/actions/'),
 			'@reducersRedux' : path.resolve(__dirname, 'src/redux/reducers/'),
+			'@pages' : path.resolve(__dirname, 'src/pages/'),
 		}
 	},
 	module: {

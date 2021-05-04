@@ -77,3 +77,31 @@ header {
     margin: 0px;
     outline: #1b2127;
 }
+
+
+.pokemon__view {
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon__view--item{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    gap: 10px 30px;
+    width: 60%;
+    padding: 20px;
+    background-color: #d0e8f2;
+}
+
+.pokemon__view--item p {
+    width: min-content;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.pokemon__view--item p:hover {
+    cursor: pointer;
+}
