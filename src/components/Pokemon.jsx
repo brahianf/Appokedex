@@ -4,13 +4,13 @@ import pokemonBall from '@images/pokemon-ball.png';
 import { selectedPoke } from '@actionsRedux/pokeActions';
 import styled from 'styled-components';
 
+const Article = styled.article`min-height: 150px;`
+
 const Pokemon = (props) => {
 
   const { data } = props;
   const element = useRef(null);
   const [show, setShow] = useState(false);
-
-  const Article = styled.article`min-height: 200px;`
 
   useEffect(()=> {
     // console.log(element.current);
