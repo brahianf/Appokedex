@@ -20,6 +20,8 @@ module.exports = {
 		alias: {
 			'@routes' : path.resolve(__dirname, 'src/routes/'),
 			'@styles':	path.resolve(__dirname, 'src/assets/styles/'),
+			'@context': path.resolve(__dirname, 'src/context/'),
+			'@images': 	path.resolve(__dirname, 'src/assets/images/'),
 		}
 	},
 	module: {

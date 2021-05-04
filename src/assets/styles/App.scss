@@ -2,3 +2,47 @@
 @import  '@styles/_vars.scss';
 @import '@styles/MediaQuery.scss';
 
+header {
+    width: 100vw;
+    background-color: #1b2127;
+    color: white;
+    font-size: 25px;
+    border: 2px solid  #1b2127;
+    height: min-content;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px 0px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* position: fixed;  */
+    @media screen and (max-width: 767px){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.logo {
+    width: min-content;
+    size: auto;
+    margin: 0 auto;
+}
+
+.logo-image{
+    /*border color: */
+    /*border-style: solid*/
+    width: 50px;
+    height: 50px;
+    /* border: 2px #1b2127 solid; */
+    border: 2px white solid;
+    border-radius: 130px;
+    padding: 2px;
+    @media screen and (max-width: 767px){
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.logo-image:hover{
+    transform: scale(1.1);
+}
